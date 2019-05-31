@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -64,3 +64,69 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+title {
+	display: none;
+}
+
+header {
+	border-bottom: 2px gray solid;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+header nav {
+	word-spacing: 45px;
+	display: inline-block;
+	margin: 0px 80px 50px 50px;
+	vertical-align: text-top;
+}
+
+header nav a{
+	color: gray;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+header .logo {
+	margin-top: 20px;
+}
+
+header .slogan {
+	font-family: Bangers, cursive;
+	font-size: 55px;
+	border: 5px green solid;
+	text-align: center;
+	width: 500px;
+	display: inline-block;
+	margin-bottom: 100px;
+	vertical-align: center;
+}
+
+header .header_bottom {
+	border: 5px red solid;
+	vertical-align: center;
+}
+
+header button {
+	font-size: 12px;
+	padding: 6px 28px;
+	background: transparent;
+	border: 1px black solid;
+}
+
+.header_bottom .code {
+	vertical-align: center;
+}
