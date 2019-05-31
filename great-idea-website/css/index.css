@@ -84,20 +84,27 @@ title {
 header {
 	border-bottom: 2px gray solid;
 	margin-bottom: 20px;
+	margin-top: 20px;
 	padding-bottom: 20px;
 }
 
 header nav {
 	word-spacing: 45px;
 	display: inline-block;
-	margin: 0px 80px 50px 50px;
+	margin: 0px 50px 50px 50px;
 	vertical-align: text-top;
 }
 
 header nav a{
 	color: gray;
 	text-decoration: none;
-	font-size: 12px;
+	border-radius: 25px;
+	padding: 5px;
+}
+
+header nav a:hover {
+	background-color: royalblue;
+	color: white;
 }
 
 header .logo {
@@ -107,7 +114,6 @@ header .logo {
 header .slogan {
 	font-family: Bangers, cursive;
 	font-size: 55px;
-	border: 5px green solid;
 	text-align: center;
 	width: 500px;
 	display: inline-block;
@@ -115,8 +121,12 @@ header .slogan {
 	vertical-align: center;
 }
 
+header .code {
+	margin-top: 20px;
+	margin-bottom: -100px;
+}
+
 header .header_bottom {
-	border: 5px red solid;
 	vertical-align: center;
 }
 
@@ -127,6 +137,52 @@ header button {
 	border: 1px black solid;
 }
 
-.header_bottom .code {
-	vertical-align: center;
+header button:hover {
+	background-color: royalblue;
+	color: white;
+}
+
+h4{
+	margin-top: 25px;
+}
+
+.block1 {
+	width: 425px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.block2 {
+	width: 425px;
+	display: inline-block;
+}
+
+.block3 {
+	width: 275px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.block4 {
+	width: 275px;
+	display: inline-block;
+}
+body img {
+	margin-top: 30px;
+}
+
+footer {
+	width: 900px;
+	margin-top: 40px;
+	padding-top: 30px;
+	border-top: 1px gray solid;
+}
+
+footer .footer_info {
+	margin-top: 20px;
+}
+
+footer .copy {
+	text-align: center;
+	margin-top: 40px;
 }
