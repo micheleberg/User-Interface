@@ -80,7 +80,9 @@ html {
 title {
 	display: none;
 }
-
+h4{
+	margin-top: 25px;
+}
 header {
 	border-bottom: 2px gray solid;
 	margin-bottom: 20px;
@@ -98,7 +100,6 @@ header nav {
 header nav a{
 	color: gray;
 	text-decoration: none;
-	border-radius: 25px;
 	padding: 5px;
 }
 
@@ -111,7 +112,7 @@ header .logo {
 	margin-top: 20px;
 }
 
-header .slogan {
+.content .slogan {
 	font-family: Bangers, cursive;
 	font-size: 55px;
 	text-align: center;
@@ -120,56 +121,38 @@ header .slogan {
 	margin-bottom: 100px;
 	vertical-align: center;
 }
-
-header .code {
-	margin-top: 20px;
-	margin-bottom: -100px;
-}
-
-header .header_bottom {
-	vertical-align: center;
-}
-
-header button {
+.content .slogan button {
 	font-size: 12px;
 	padding: 6px 28px;
 	background: transparent;
 	border: 1px black solid;
 }
-
-header button:hover {
+.content .slogan button:hover {
 	background-color: royalblue;
 	color: white;
 }
-
-h4{
-	margin-top: 25px;
+.code {
+	margin-top: 20px;
+	margin-bottom: -100px;
 }
-
 .block1 {
 	width: 425px;
 	display: inline-block;
 	margin-right: 20px;
 }
-
-.block2 {
-	width: 425px;
-	display: inline-block;
+.content img {
+	margin-top: 30px;
 }
-
-.block3 {
+.block2 {
 	width: 275px;
 	display: inline-block;
 	margin-right: 20px;
 }
-
-.block4 {
+.block2_end {
 	width: 275px;
 	display: inline-block;
 }
-body img {
-	margin-top: 30px;
-}
+
 
 footer {
 	width: 900px;
